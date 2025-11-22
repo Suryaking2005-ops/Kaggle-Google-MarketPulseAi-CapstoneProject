@@ -1,0 +1,296 @@
+2025-11-21 11:06:17,703 - Main - INFO - Starting analysis for AAPL...
+2025-11-21 11:06:37,206 - Main - INFO - Starting analysis for AAPL...
+2025-11-21 11:06:37,206 - Tools - INFO - Searching for: latest news and analysis for AAPL stock
+2025-11-21 11:06:37,628 - Agents - INFO - Researcher is thinking...
+2025-11-21 11:06:37,958 - Agents - ERROR - Researcher failed to generate response: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-11-21 11:06:37,958 - Main - INFO - Researcher finished.
+2025-11-21 11:06:37,961 - Tools - INFO - Fetching data for AAPL over 1y
+2025-11-21 11:06:38,745 - Agents - INFO - Quant is thinking...
+2025-11-21 11:06:38,828 - Agents - ERROR - Quant failed to generate response: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-11-21 11:06:38,830 - Main - INFO - Quant finished.
+2025-11-21 11:06:38,830 - Agents - INFO - Risk Officer is thinking...
+2025-11-21 11:06:39,026 - Agents - ERROR - Risk Officer failed to generate response: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-11-21 11:06:39,026 - Main - INFO - Risk Officer finished.
+2025-11-21 11:06:39,026 - Agents - INFO - Synthesizer is thinking...
+2025-11-21 11:06:39,104 - Agents - ERROR - Synthesizer failed to generate response: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-11-21 11:06:39,104 - Main - INFO - Synthesizer finished.
+2025-11-21 11:06:39,105 - MemoryBank - INFO - Updated memory for AAPL: latest_memo
+2025-11-21 11:06:39,105 - Main - INFO - Analysis saved to memory for AAPL.
+2025-11-21 11:06:54,548 - Main - INFO - Starting analysis for AAPL...
+2025-11-21 11:06:54,552 - Tools - INFO - Searching for: latest news and analysis for AAPL stock
+2025-11-21 11:06:54,960 - Agents - INFO - Researcher is thinking...
+2025-11-21 11:06:55,280 - Agents - ERROR - Researcher failed to generate response: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-11-21 11:06:55,280 - Main - INFO - Researcher finished.
+2025-11-21 11:06:55,281 - Tools - INFO - Fetching data for AAPL over 1y
+2025-11-21 11:06:55,898 - Agents - INFO - Quant is thinking...
+2025-11-21 11:06:55,979 - Agents - ERROR - Quant failed to generate response: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-11-21 11:06:55,979 - Main - INFO - Quant finished.
+2025-11-21 11:06:55,979 - Agents - INFO - Risk Officer is thinking...
+2025-11-21 11:06:56,160 - Agents - ERROR - Risk Officer failed to generate response: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-11-21 11:06:56,161 - Main - INFO - Risk Officer finished.
+2025-11-21 11:06:56,161 - Agents - INFO - Synthesizer is thinking...
+2025-11-21 11:06:56,241 - Agents - ERROR - Synthesizer failed to generate response: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-11-21 11:06:56,241 - Main - INFO - Synthesizer finished.
+2025-11-21 11:06:56,242 - MemoryBank - INFO - Updated memory for AAPL: latest_memo
+2025-11-21 11:06:56,242 - Main - INFO - Analysis saved to memory for AAPL.
+2025-11-21 11:07:51,989 - Main - INFO - Starting analysis for AAPL...
+2025-11-21 11:07:51,990 - Tools - INFO - Searching for: latest news and analysis for AAPL stock
+2025-11-21 11:07:54,122 - Agents - INFO - Researcher is thinking...
+2025-11-21 11:07:55,528 - Main - INFO - Researcher finished.
+2025-11-21 11:07:55,531 - Tools - INFO - Fetching data for AAPL over 1y
+2025-11-21 11:07:56,518 - Agents - INFO - Quant is thinking...
+2025-11-21 11:08:00,048 - Main - INFO - Quant finished.
+2025-11-21 11:08:00,049 - Agents - INFO - Risk Officer is thinking...
+2025-11-21 11:08:07,415 - Main - INFO - Risk Officer finished.
+2025-11-21 11:08:07,415 - Agents - INFO - Synthesizer is thinking...
+2025-11-21 11:08:11,854 - Main - INFO - Synthesizer finished.
+2025-11-21 11:08:11,857 - MemoryBank - INFO - Updated memory for AAPL: latest_memo
+2025-11-21 11:08:11,857 - Main - INFO - Analysis saved to memory for AAPL.
+2025-11-21 11:15:24,177 - Main - INFO - Starting analysis for AAPL...
+2025-11-21 11:15:24,178 - Tools - INFO - Searching for: latest news and analysis for AAPL stock
+2025-11-21 11:15:25,021 - Agents - INFO - Researcher is thinking...
+2025-11-21 11:15:26,327 - Main - INFO - Researcher finished.
+2025-11-21 11:15:26,327 - Tools - INFO - Fetching data for AAPL over 1y
+2025-11-21 11:15:26,991 - Agents - INFO - Quant is thinking...
+2025-11-21 11:15:31,650 - Main - INFO - Quant finished.
+2025-11-21 11:15:31,650 - Agents - INFO - Risk Officer is thinking...
+2025-11-21 11:15:38,177 - Main - INFO - Risk Officer finished.
+2025-11-21 11:15:38,177 - Agents - INFO - Synthesizer is thinking...
+2025-11-21 11:15:42,929 - Main - INFO - Synthesizer finished.
+2025-11-21 11:15:42,929 - MemoryBank - INFO - Updated memory for AAPL: latest_memo
+2025-11-21 11:15:42,929 - Main - INFO - Analysis saved to memory for AAPL.
+2025-11-21 11:16:41,061 - Main - INFO - Starting analysis for TSLA...
+2025-11-21 11:16:41,062 - Tools - INFO - Searching for: latest news and analysis for TSLA stock
+2025-11-21 11:16:42,140 - Agents - INFO - Researcher is thinking...
+2025-11-21 11:16:43,332 - Main - INFO - Researcher finished.
+2025-11-21 11:16:43,332 - Tools - INFO - Fetching data for TSLA over 1y
+2025-11-21 11:16:44,129 - Agents - INFO - Quant is thinking...
+2025-11-21 11:16:46,354 - Main - INFO - Quant finished.
+2025-11-21 11:16:46,354 - Agents - INFO - Risk Officer is thinking...
+2025-11-21 11:16:54,289 - Main - INFO - Risk Officer finished.
+2025-11-21 11:16:54,289 - Agents - INFO - Synthesizer is thinking...
+2025-11-21 11:16:59,267 - Main - INFO - Synthesizer finished.
+2025-11-21 11:16:59,268 - MemoryBank - INFO - Updated memory for TSLA: latest_memo
+2025-11-21 11:16:59,268 - Main - INFO - Analysis saved to memory for TSLA.
+2025-11-21 11:33:32,258 - Main - INFO - Starting analysis for GOOGL...
+2025-11-21 11:33:32,279 - Tools - INFO - Searching for: latest news and analysis for GOOGL stock
+2025-11-21 11:33:32,642 - Agents - INFO - Researcher is thinking...
+2025-11-21 11:33:44,875 - Agents - ERROR - Researcher failed to generate response: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+2025-11-21 11:33:44,875 - Main - INFO - Researcher finished.
+2025-11-21 11:33:44,875 - Tools - INFO - Fetching data for GOOGL over 1y
+2025-11-21 11:33:45,478 - Agents - INFO - Quant is thinking...
+2025-11-21 11:33:57,505 - Agents - ERROR - Quant failed to generate response: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+2025-11-21 11:33:57,505 - Main - INFO - Quant finished.
+2025-11-21 11:33:57,505 - Agents - INFO - Risk Officer is thinking...
+2025-11-21 11:34:09,392 - Agents - ERROR - Risk Officer failed to generate response: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+2025-11-21 11:34:09,392 - Main - INFO - Risk Officer finished.
+2025-11-21 11:34:09,393 - Agents - INFO - Synthesizer is thinking...
+2025-11-21 11:34:21,196 - Agents - ERROR - Synthesizer failed to generate response: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+2025-11-21 11:34:21,196 - Main - INFO - Synthesizer finished.
+2025-11-21 11:34:21,196 - MemoryBank - INFO - Updated memory for GOOGL: latest_memo
+2025-11-21 11:34:21,196 - Main - INFO - Analysis saved to memory for GOOGL.
+2025-11-21 11:43:40,248 - Main - INFO - Starting analysis for GOOGL...
+2025-11-21 11:43:40,249 - Tools - INFO - Searching for: latest news and analysis for GOOGL stock
+2025-11-21 11:43:42,412 - Agents - INFO - Researcher is thinking...
+2025-11-21 11:43:43,159 - Agents - ERROR - Researcher failed to generate response: 403 This API method requires billing to be enabled. Please enable billing on project #i-academy-477316-d6 by visiting https://console.developers.google.com/billing/enable?project=i-academy-477316-d6 then retry. If you enabled billing for this project recently, wait a few minutes for the action to propagate to our systems and retry. [reason: "BILLING_DISABLED"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "aiplatform.googleapis.com"
+}
+metadata {
+  key: "containerInfo"
+  value: "i-academy-477316-d6"
+}
+metadata {
+  key: "consumer"
+  value: "projects/i-academy-477316-d6"
+}
+, locale: "en-US"
+message: "This API method requires billing to be enabled. Please enable billing on project #i-academy-477316-d6 by visiting https://console.developers.google.com/billing/enable?project=i-academy-477316-d6 then retry. If you enabled billing for this project recently, wait a few minutes for the action to propagate to our systems and retry."
+, links {
+  description: "Google developers console billing"
+  url: "https://console.developers.google.com/billing/enable?project=i-academy-477316-d6"
+}
+]
+2025-11-21 11:43:43,159 - Main - INFO - Researcher finished.
+2025-11-21 11:43:43,159 - Tools - INFO - Fetching data for GOOGL over 1y
+2025-11-21 11:43:43,856 - Agents - INFO - Quant is thinking...
+2025-11-21 11:43:44,125 - Agents - ERROR - Quant failed to generate response: 403 This API method requires billing to be enabled. Please enable billing on project #i-academy-477316-d6 by visiting https://console.developers.google.com/billing/enable?project=i-academy-477316-d6 then retry. If you enabled billing for this project recently, wait a few minutes for the action to propagate to our systems and retry. [reason: "BILLING_DISABLED"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "aiplatform.googleapis.com"
+}
+metadata {
+  key: "containerInfo"
+  value: "i-academy-477316-d6"
+}
+metadata {
+  key: "consumer"
+  value: "projects/i-academy-477316-d6"
+}
+, locale: "en-US"
+message: "This API method requires billing to be enabled. Please enable billing on project #i-academy-477316-d6 by visiting https://console.developers.google.com/billing/enable?project=i-academy-477316-d6 then retry. If you enabled billing for this project recently, wait a few minutes for the action to propagate to our systems and retry."
+, links {
+  description: "Google developers console billing"
+  url: "https://console.developers.google.com/billing/enable?project=i-academy-477316-d6"
+}
+]
+2025-11-21 11:43:44,125 - Main - INFO - Quant finished.
+2025-11-21 11:43:44,125 - Agents - INFO - Risk Officer is thinking...
+2025-11-21 11:43:44,313 - Agents - ERROR - Risk Officer failed to generate response: 403 This API method requires billing to be enabled. Please enable billing on project #i-academy-477316-d6 by visiting https://console.developers.google.com/billing/enable?project=i-academy-477316-d6 then retry. If you enabled billing for this project recently, wait a few minutes for the action to propagate to our systems and retry. [reason: "BILLING_DISABLED"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "aiplatform.googleapis.com"
+}
+metadata {
+  key: "containerInfo"
+  value: "i-academy-477316-d6"
+}
+metadata {
+  key: "consumer"
+  value: "projects/i-academy-477316-d6"
+}
+, locale: "en-US"
+message: "This API method requires billing to be enabled. Please enable billing on project #i-academy-477316-d6 by visiting https://console.developers.google.com/billing/enable?project=i-academy-477316-d6 then retry. If you enabled billing for this project recently, wait a few minutes for the action to propagate to our systems and retry."
+, links {
+  description: "Google developers console billing"
+  url: "https://console.developers.google.com/billing/enable?project=i-academy-477316-d6"
+}
+]
+2025-11-21 11:43:44,314 - Main - INFO - Risk Officer finished.
+2025-11-21 11:43:44,314 - Agents - INFO - Synthesizer is thinking...
+2025-11-21 11:43:44,516 - Agents - ERROR - Synthesizer failed to generate response: 403 This API method requires billing to be enabled. Please enable billing on project #i-academy-477316-d6 by visiting https://console.developers.google.com/billing/enable?project=i-academy-477316-d6 then retry. If you enabled billing for this project recently, wait a few minutes for the action to propagate to our systems and retry. [reason: "BILLING_DISABLED"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "aiplatform.googleapis.com"
+}
+metadata {
+  key: "containerInfo"
+  value: "i-academy-477316-d6"
+}
+metadata {
+  key: "consumer"
+  value: "projects/i-academy-477316-d6"
+}
+, locale: "en-US"
+message: "This API method requires billing to be enabled. Please enable billing on project #i-academy-477316-d6 by visiting https://console.developers.google.com/billing/enable?project=i-academy-477316-d6 then retry. If you enabled billing for this project recently, wait a few minutes for the action to propagate to our systems and retry."
+, links {
+  description: "Google developers console billing"
+  url: "https://console.developers.google.com/billing/enable?project=i-academy-477316-d6"
+}
+]
+2025-11-21 11:43:44,516 - Main - INFO - Synthesizer finished.
+2025-11-21 11:43:44,518 - MemoryBank - INFO - Updated memory for GOOGL: latest_memo
+2025-11-21 11:43:44,518 - Main - INFO - Analysis saved to memory for GOOGL.
+2025-11-21 11:45:16,617 - Main - INFO - Starting analysis for MSFT...
+2025-11-21 11:45:16,618 - Tools - INFO - Searching for: latest news and analysis for MSFT stock
+2025-11-21 11:45:17,313 - Agents - INFO - Researcher is thinking...
+2025-11-21 11:45:19,550 - Main - INFO - Researcher finished.
+2025-11-21 11:45:19,550 - Tools - INFO - Fetching data for MSFT over 1y
+2025-11-21 11:45:20,096 - Agents - INFO - Quant is thinking...
+2025-11-21 11:45:23,282 - Main - INFO - Quant finished.
+2025-11-21 11:45:23,282 - Agents - INFO - Risk Officer is thinking...
+2025-11-21 11:45:31,265 - Main - INFO - Risk Officer finished.
+2025-11-21 11:45:31,265 - Agents - INFO - Synthesizer is thinking...
+2025-11-21 11:45:35,755 - Main - INFO - Synthesizer finished.
+2025-11-21 11:45:35,757 - MemoryBank - INFO - Updated memory for MSFT: latest_memo
+2025-11-21 11:45:35,757 - Main - INFO - Analysis saved to memory for MSFT.
+2025-11-21 11:54:59,022 - MarketPulse-UI - INFO - Starting analysis for TSLA via UI...
+2025-11-21 11:54:59,023 - Tools - INFO - Searching for: latest news and analysis for TSLA stock
+2025-11-21 11:54:59,696 - Agents - INFO - Researcher is thinking...
+2025-11-21 11:55:01,191 - Tools - INFO - Fetching data for TSLA over 1y
+2025-11-21 11:55:01,632 - Agents - INFO - Quant is thinking...
+2025-11-21 11:55:04,767 - Agents - INFO - Risk Officer is thinking...
+2025-11-21 11:55:10,756 - Agents - INFO - Synthesizer is thinking...
+2025-11-21 11:55:15,305 - MemoryBank - INFO - Updated memory for TSLA: latest_memo
+2025-11-21 11:55:15,305 - MarketPulse-UI - INFO - Analysis saved in memory for TSLA
+2025-11-21 11:59:55,991 - MarketPulse-UI - INFO - Starting analysis for TATA via UI...
+2025-11-21 11:59:55,992 - Tools - INFO - Searching for: latest news and analysis for TATA stock
+2025-11-21 11:59:56,669 - Agents - INFO - Researcher is thinking...
+2025-11-21 11:59:57,961 - Tools - INFO - Fetching data for TATA over 1y
+2025-11-21 11:59:59,890 - Agents - INFO - Risk Officer is thinking...
+2025-11-21 12:00:07,228 - Agents - INFO - Synthesizer is thinking...
+2025-11-21 12:00:11,264 - MemoryBank - INFO - Updated memory for TATA: latest_memo
+2025-11-21 12:00:11,264 - MarketPulse-UI - INFO - Analysis saved in memory for TATA
+2025-11-21 12:00:32,772 - MarketPulse-UI - INFO - Starting analysis for TMPV via UI...
+2025-11-21 12:00:32,774 - Tools - INFO - Searching for: latest news and analysis for TMPV stock
+2025-11-21 12:00:33,472 - Agents - INFO - Researcher is thinking...
+2025-11-21 12:00:34,535 - Tools - INFO - Fetching data for TMPV over 1y
+2025-11-21 12:00:36,340 - Agents - INFO - Risk Officer is thinking...
+2025-11-21 12:00:42,439 - Agents - INFO - Synthesizer is thinking...
+2025-11-21 12:00:45,885 - MemoryBank - INFO - Updated memory for TMPV: latest_memo
+2025-11-21 12:00:45,885 - MarketPulse-UI - INFO - Analysis saved in memory for TMPV
+2025-11-21 12:01:13,641 - MarketPulse-UI - INFO - Starting analysis for TATASTEEL via UI...
+2025-11-21 12:01:13,641 - Tools - INFO - Searching for: latest news and analysis for TATASTEEL stock
+2025-11-21 12:01:14,330 - Agents - INFO - Researcher is thinking...
+2025-11-21 12:01:15,458 - Tools - INFO - Fetching data for TATASTEEL over 1y
+2025-11-21 12:01:16,729 - Agents - INFO - Risk Officer is thinking...
+2025-11-21 12:01:22,410 - Agents - INFO - Synthesizer is thinking...
+2025-11-21 12:01:26,539 - MemoryBank - INFO - Updated memory for TATASTEEL: latest_memo
+2025-11-21 12:01:26,539 - MarketPulse-UI - INFO - Analysis saved in memory for TATASTEEL
+2025-11-21 12:01:47,727 - MarketPulse-UI - INFO - Starting analysis for AMZN via UI...
+2025-11-21 12:01:47,728 - Tools - INFO - Searching for: latest news and analysis for AMZN stock
+2025-11-21 12:01:48,396 - Agents - INFO - Researcher is thinking...
+2025-11-21 12:01:49,389 - Tools - INFO - Fetching data for AMZN over 1y
+2025-11-21 12:01:49,876 - Agents - INFO - Quant is thinking...
+2025-11-21 12:01:52,747 - Agents - INFO - Risk Officer is thinking...
+2025-11-21 12:02:01,334 - Agents - INFO - Synthesizer is thinking...
+2025-11-21 12:02:07,333 - MemoryBank - INFO - Updated memory for AMZN: latest_memo
+2025-11-21 12:02:07,333 - MarketPulse-UI - INFO - Analysis saved in memory for AMZN
+2025-11-21 12:04:51,607 - Main - INFO - Starting analysis for RELIANCE.NS...
+2025-11-21 12:04:51,607 - Tools - INFO - Searching for: latest news and analysis for RELIANCE stock
+2025-11-21 12:04:52,287 - Agents - INFO - Researcher is thinking...
+2025-11-21 12:04:53,574 - Main - INFO - Researcher finished.
+2025-11-21 12:04:53,574 - Tools - INFO - Fetching data for RELIANCE.NS over 1y
+2025-11-21 12:04:54,649 - Agents - INFO - Quant is thinking...
+2025-11-21 12:04:58,579 - Main - INFO - Quant finished.
+2025-11-21 12:04:58,579 - Agents - INFO - Risk Officer is thinking...
+2025-11-21 12:05:08,876 - Main - INFO - Risk Officer finished.
+2025-11-21 12:05:08,877 - Agents - INFO - Synthesizer is thinking...
+2025-11-21 12:05:15,824 - Main - INFO - Synthesizer finished.
+2025-11-21 12:05:15,825 - MemoryBank - INFO - Updated memory for RELIANCE.NS: latest_memo
+2025-11-21 12:05:15,825 - Main - INFO - Analysis saved to memory for RELIANCE.NS.
+2025-11-21 12:10:32,310 - MarketPulse-UI - INFO - Starting analysis for TATASTEEL.NS via UI...
+2025-11-21 12:10:32,310 - Tools - INFO - Searching for: latest news and analysis for TATASTEEL stock
+2025-11-21 12:10:32,983 - Agents - INFO - Researcher is thinking...
+2025-11-21 12:10:34,367 - Tools - INFO - Fetching data for TATASTEEL.NS over 1y
+2025-11-21 12:10:34,601 - Agents - INFO - Quant is thinking...
+2025-11-21 12:10:37,421 - Agents - INFO - Risk Officer is thinking...
+2025-11-21 12:10:45,626 - Agents - INFO - Synthesizer is thinking...
+2025-11-21 12:10:50,134 - MemoryBank - INFO - Updated memory for TATASTEEL.NS: latest_memo
+2025-11-21 12:10:50,135 - MarketPulse-UI - INFO - Analysis saved in memory for TATASTEEL.NS
+2025-11-21 12:37:48,238 - Main - INFO - Starting analysis for TATASTEEL.NS...
+2025-11-21 12:37:48,238 - Tools - INFO - Searching for: latest news and analysis for TATASTEEL stock
+2025-11-21 12:37:49,084 - Agents - INFO - Researcher is thinking...
+2025-11-21 12:37:50,557 - Main - INFO - Researcher finished.
+2025-11-21 12:37:50,557 - Tools - INFO - Fetching data for TATASTEEL.NS over 1y
+2025-11-21 12:37:51,286 - Agents - INFO - Quant is thinking...
+2025-11-21 12:37:55,221 - Main - INFO - Quant finished.
+2025-11-21 12:37:55,221 - Agents - INFO - Risk Officer is thinking...
+2025-11-21 12:38:03,435 - Main - INFO - Risk Officer finished.
+2025-11-21 12:38:03,435 - Agents - INFO - Synthesizer is thinking...
+2025-11-21 12:38:09,219 - Main - INFO - Synthesizer finished.
+2025-11-21 12:38:09,221 - MemoryBank - INFO - Updated memory for TATASTEEL.NS: latest_memo
+2025-11-21 12:38:09,221 - Main - INFO - Analysis saved to memory for TATASTEEL.NS.
+2025-11-21 12:38:30,138 - MarketPulse-UI - INFO - Starting analysis for TCS.BO via UI...
+2025-11-21 12:38:30,138 - Tools - INFO - Searching for: latest news and analysis for TCS stock
+2025-11-21 12:38:32,299 - Agents - INFO - Researcher is thinking...
+2025-11-21 12:38:33,489 - Tools - INFO - Fetching data for TCS.BO over 1y
+2025-11-21 12:38:34,346 - Agents - INFO - Quant is thinking...
+2025-11-21 12:38:37,584 - Agents - INFO - Risk Officer is thinking...
+2025-11-21 12:38:45,626 - Agents - INFO - Synthesizer is thinking...
+2025-11-21 12:38:49,953 - MemoryBank - INFO - Updated memory for TCS.BO: latest_memo
+2025-11-21 12:38:49,953 - MarketPulse-UI - INFO - Analysis saved in memory for TCS.BO
+2025-11-21 18:32:15,476 - MarketPulse-UI - INFO - Starting analysis for HDFCBANK.NS via UI...
+2025-11-21 18:32:15,482 - Tools - INFO - Searching for: latest news and analysis for HDFCBANK stock
+2025-11-21 18:32:17,074 - Agents - INFO - Researcher is thinking...
+2025-11-21 18:32:18,325 - Tools - INFO - Fetching data for HDFCBANK.NS over 1y
+2025-11-21 18:32:20,464 - Agents - INFO - Quant is thinking...
+2025-11-21 18:32:23,179 - Agents - INFO - Risk Officer is thinking...
+2025-11-21 18:32:29,573 - Agents - INFO - Synthesizer is thinking...
+2025-11-21 18:32:33,894 - MemoryBank - INFO - Updated memory for HDFCBANK.NS: latest_memo
+2025-11-21 18:32:33,894 - MarketPulse-UI - INFO - Analysis saved in memory for HDFCBANK.NS
