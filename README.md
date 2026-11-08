@@ -58,11 +58,11 @@ MarketPulse is built as a **modular agent ecosystem** rather than a monolithic m
 
 | Module      | Description |
 |-------------|-------------|
-| **agents.py** | Defines all four specialized agents and their interaction logic |
-| **tools.py** | Implements search, market data retrieval, and technical indicator calculations |
-| **memory.py** | JSON‑based persistent storage (`memory.json`) for historical assessments |
-| **logger.py** | Unified logging to console and file with configurable verbosity |
-| **config.py** | Holds API keys, model configurations, and environment constants |
+| **marketpulse/agents.py** | Defines all four specialized agents and their interaction logic |
+| **marketpulse/tools.py** | Implements search, market data retrieval, and technical indicator calculations |
+| **marketpulse/memory.py** | JSON‑based persistent storage (`memory.json`) for historical assessments |
+| **marketpulse/logger.py** | Unified logging to console and file with configurable verbosity |
+| **marketpulse/config.py** | Reads the API key and settings from environment variables / `.env` |
 
 ---
 
@@ -164,14 +164,18 @@ Each stage consumes the previous agent’s output, mirroring an investment commi
 
 ### 1. Install Dependencies
 ```bash
+python -m venv .venv
+source .venv/bin/activate        # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
 ### 2. Configure API Keys
-Update `config.py` with your Google Gemini API key:
-```python
-GOOGLE_API_KEY = "your_key_here"
+Get a Gemini API key from [Google AI Studio](https://aistudio.google.com/), then:
+```bash
+cp .env.example .env             # Windows: copy .env.example .env
 ```
+Open `.env` and set `GOOGLE_API_KEY=your_key`. The `.env` file is git-ignored, so your key is never committed.
+Optional: set `MODEL_NAME` in `.env` if the default model is retired. Run `python -m scripts.list_models` to see which models your key can use.
 
 ### 3. Run the CLI
 ```bash
