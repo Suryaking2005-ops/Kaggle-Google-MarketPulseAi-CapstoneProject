@@ -1,7 +1,8 @@
 import streamlit as st
-from agents import ResearcherAgent, QuantAgent, RiskAgent, SynthesizerAgent
-from memory import MemoryBank
-from logger import setup_logger
+from marketpulse.config import MissingAPIKeyError
+from marketpulse.agents import ResearcherAgent, QuantAgent, RiskAgent, SynthesizerAgent
+from marketpulse.memory import MemoryBank
+from marketpulse.logger import setup_logger
 
 # Initialize logger
 logger = setup_logger("MarketPulse-UI")
@@ -34,10 +35,14 @@ if run_button:
 
         # Initialize Memory & Agents
         memory = MemoryBank()
-        researcher = ResearcherAgent()
-        quant = QuantAgent()
-        risk_officer = RiskAgent()
-        synthesizer = SynthesizerAgent()
+        try:
+            researcher = ResearcherAgent()
+            quant = QuantAgent()
+            risk_officer = RiskAgent()
+            synthesizer = SynthesizerAgent()
+        except MissingAPIKeyError as e:
+            st.error(str(e))
+            st.stop()
 
         st.info(f"🚀 Running analysis for *{ticker}*...")
         logger.info(f"Starting analysis for {ticker} via UI...")

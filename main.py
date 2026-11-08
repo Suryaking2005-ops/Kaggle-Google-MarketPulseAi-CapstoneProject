@@ -1,8 +1,9 @@
 import argparse
 import sys
-from agents import ResearcherAgent, QuantAgent, RiskAgent, SynthesizerAgent
-from memory import MemoryBank
-from logger import setup_logger
+from marketpulse.config import MissingAPIKeyError
+from marketpulse.agents import ResearcherAgent, QuantAgent, RiskAgent, SynthesizerAgent
+from marketpulse.memory import MemoryBank
+from marketpulse.logger import setup_logger
 
 logger = setup_logger("Main")
 
@@ -17,11 +18,15 @@ def main():
     # Initialize Memory
     memory = MemoryBank()
     
-    # Initialize Agents
-    researcher = ResearcherAgent()
-    quant = QuantAgent()
-    risk_officer = RiskAgent()
-    synthesizer = SynthesizerAgent()
+    # Initialize Agents (this is where the API key is checked)
+    try:
+        researcher = ResearcherAgent()
+        quant = QuantAgent()
+        risk_officer = RiskAgent()
+        synthesizer = SynthesizerAgent()
+    except MissingAPIKeyError as e:
+        print(f"\nConfiguration error: {e}")
+        sys.exit(1)
 
     # Step 1: Research
     print(f"\n--- Researcher is analyzing {ticker} ---")
